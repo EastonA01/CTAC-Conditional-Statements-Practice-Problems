@@ -13,8 +13,7 @@ public class TestScores {
             case 8:  grade = 'B'; break;
             case 7:  grade = 'C'; break;
             case 6:  grade = 'D'; break;
-            case 5:  grade = 'F'; break;
-            default: grade = 'N'; break; // N IS FOR N/A
+            default: grade = 'F'; break; // Anything below is failing
         }
         System.out.println("Your grade is an " + grade);
     }
